@@ -12,6 +12,11 @@
   - C code polls every 50ms but counting (decoding) is performed on FPGA (100MHz clock)
   - Channels mapped to two rightmost switches (SW0, SW1)
 
+## Required Software
+
+- Quartus Prime Lite (Tested 18.1): https://fpgasoftware.intel.com/
+- SoC FPGA Embedded Development Suite Standard (Tested 18.1): https://fpgasoftware.intel.com/soceds/
+
 ## Todo
 
 - Look into decreasing compilation time (loosening timing constraints)
